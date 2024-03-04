@@ -4,7 +4,7 @@
   "description": "AMBaG Landing Page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/css/output.css --watch"
   },
   "repository": {
     "type": "git",
