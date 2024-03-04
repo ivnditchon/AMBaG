@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* reusable style */
+
+/* team */
+.team_container {
+    @apply w-full h-auto flex flex-col items-center m-7;
+}
+
+.team_title {
+    @apply mt-5 text-sm text-softGreen font-semibold uppercase antialiased underline underline-offset-4 decoration-softGreen;
+}
+
+.team_emp_container {
+    @apply w-full h-auto flex flex-col items-center;
+}
+
+.team_emp_inf {
+    @apply w-full h-auto flex flex-col items-center mt-12;
+}
+
+.team_emp_name {
+    @apply text-xs text-lightGray font-semibold uppercase antialiased tracking-wide;
+}
+
+.team_emp_pos {
+    @apply text-xs text-lightGray uppercase antialiased tracking-wide;
+}
+
+/* team socmed icons */
+.socmed_ul {
+    @apply w-full h-auto flex justify-center items-center mt-3;
+}
+
+.socmed_li {
+    @apply w-6 h-auto flex justify-center items-center;
+}
+
